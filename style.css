@@ -1,0 +1,51 @@
+body{
+	background-color:#D9D2D2;
+	font-size: 15px;
+}
+h1{
+	font-size: 18px;
+	margin-left: 20px;
+}
+#container{
+	max-width: 100%;
+}
+textarea{
+	max-width: 250px;
+	max-height: 250px;
+	background-color: #F2F0CE;
+	border-radius: 4px;
+}
+
+#lettersDiv, #wordsDiv{
+	max-width: 250px;
+	margin: 20px;
+	border: 2px solid black;
+    	border-radius: 3px;
+	background-color: #F2F0CE;
+}
+span{
+	margin: 5px;
+}
+
+button{
+	margin: 10px;
+	background-color: #D0D2F2;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+	#container{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+	textarea{
+		max-width: 400px;
+		max-height: 400px;
+	}
+	#lettersDiv, #wordsDiv{
+		max-width: 400px;
+	}
+}
